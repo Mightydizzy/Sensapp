@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Nombre del dispositivo -->
+        <EditText
+            android:id="@+id/cfgNombre"
+            android:hint="@string/nombre_del_dispositivo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp"
+            android:inputType="text"
+            android:autofillHints="username"
+            android:textColor="@color/colorTextPrimary"
+            android:textColorHint="@color/colorTextSecondary" />
+
+
+        <!-- Zona / Lugar -->
+        <EditText
+            android:id="@+id/cfgZona"
+            android:hint="@string/zona_lugar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp"
+            android:inputType="text"
+            android:autofillHints="área"
+            android:textColor="@color/colorTextPrimary"
+            android:textColorHint="@color/colorTextSecondary"
+            />
+
+
+        <!-- Sensor superior -->
+        <Spinner
+            android:id="@+id/cfgSensorSuperior"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            />
+
+        <!-- Sensor inferior -->
+        <Spinner
+            android:id="@+id/cfgSensorInferior"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Endpoint HTTP -->
+        <EditText
+            android:id="@+id/cfgEndpoint"
+            android:hint="@string/http_192_168_1_xx_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp"
+            android:inputType="textUri"
+            android:autofillHints="url"
+            android:textColor="@color/colorTextPrimary"
+            android:textColorHint="@color/colorTextSecondary"
+            />
+
+        <!-- Botón Guardar -->
+        <Button
+            android:id="@+id/cfgGuardar"
+            android:text="@string/guardar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Botón Probar -->
+        <Button
+            android:id="@+id/cfgProbar"
+            android:text="@string/probar_conexion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "175103760434",
+    "project_id": "sensapp-esp32",
+    "storage_bucket": "sensapp-esp32.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:175103760434:android:7b8e0dd94a7f51f492442b",
+        "android_client_info": {
+          "package_name": "com.example.sensapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "175103760434-p13tu57j6l6dkganp0fl075qj43m80tk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sensapp",
+            "certificate_hash": "b2d4f8888579ce5c04f5f462404a922e63d80772"
+          }
+        },
+        {
+          "client_id": "175103760434-sed6fgblg9os2o6ika9640in5k5h467d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyrnQI1HsspVr0F1bZxLqCYHGQwUThTpI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "175103760434-sed6fgblg9os2o6ika9640in5k5h467d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

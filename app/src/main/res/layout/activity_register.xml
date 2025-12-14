@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@color/colorBackground">
+
+    <EditText
+        android:id="@+id/userNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nombre_register"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/white"
+        android:textColorHint="#80FFFFFF" />
+
+    <EditText
+        android:id="@+id/userEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/correo_register"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="12dp"
+        android:textColor="@android:color/white"
+        android:textColorHint="#80FFFFFF" />
+
+    <EditText
+        android:id="@+id/userUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/usuario_register"
+        android:layout_marginTop="12dp"
+        android:textColor="@android:color/white"
+        android:textColorHint="#80FFFFFF" />
+
+    <EditText
+        android:id="@+id/userClave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/contrasena"
+        android:inputType="textPassword"
+        android:layout_marginTop="12dp"
+        android:textColor="@android:color/white"
+        android:textColorHint="#80FFFFFF" />
+
+    <Button
+        android:id="@+id/userCrear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/crear_cuenta"
+        android:layout_marginTop="24dp"
+        android:background="@color/colorAccent"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>
